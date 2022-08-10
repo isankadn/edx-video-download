@@ -1,5 +1,6 @@
 downloads
 *.csv
+.direnv
 
 .DS_Store
 .huskyrc.json
