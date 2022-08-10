@@ -11,13 +11,21 @@ Then copy the path of the downloaded CSV file. example: /Users/isanka/dev/edv-vi
 Run the script by "python edx_video_backup.py"
 
 """
-    
+
+import os    
 import pandas as pd
 import wget
-
+import pdb
 
 DOWNLOAD_LOCATION = "./downloads"
 
+path = "./downloads"
+isExist = os.path.exists(path)
+if not isExist:
+    os.makedirs(path)
+    print("The new download location is created!")
+
+pdb.set_trace()
 csv_path = input("What is the video url CSV path? Ex: '/home/isanka/009x_video_urls.csv' ").strip()
 
 fields = ['Name', 'Status', 'desktop_mp4 URL',]
