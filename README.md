@@ -1,5 +1,6 @@
 <p>This is a simple script to download edx.org video files.</p>
 # instalation
+This needs Python 3.
 <code>
 git clone https://github.com/isankadn/edx-video-download.git
 </code>
