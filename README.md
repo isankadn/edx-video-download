@@ -1,3 +1,7 @@
+#instalation
+<code>
+git clone https://github.com/isankadn/edx-video-download.git
+</code>
 Install necessary packages by running pip install -r requirements.txt
 This is a simple script to download edx.org video files.
 First, log in to studio.edx.org  and go to video uploads and download the video list CSV.
