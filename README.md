@@ -2,11 +2,11 @@
 # instalation
 
 <p>This needs Python 3.</p>
-
+<p>
 <code>
 git clone https://github.com/isankadn/edx-video-download.git
 </code>
-
+</p>
 <p>Install necessary packages by running </p>
 <code>
   pip install -r requirements.txt
